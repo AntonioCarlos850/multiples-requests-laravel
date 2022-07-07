@@ -2,11 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Monitor;
 use Illuminate\Http\Client\Pool;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Log;
 
 class MonitorController extends Controller
 {
